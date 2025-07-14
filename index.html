@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Académico</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bg-dark text-white text-center py-4">
+    <img src="img/perfil.jpg" alt="Foto de Perfil" class="rounded-circle" width="120">
+    <h1 class="mt-2">Dr. Héctor Suárez</h1>
+    <p class="lead">Investigador | Desarrollador | Docente</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#cv">Currículum</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publicaciones">Publicaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mt-5">
+    <section id="cv" class="mb-5">
+      <h2>Currículum Vitae</h2>
+      <p>Puedes descargar mi CV en PDF haciendo clic en el siguiente botón:</p>
+      <a href="pdf/cv_hector.pdf" class="btn btn-primary" target="_blank">Descargar CV</a>
+    </section>
+
+    <section id="publicaciones" class="mb-5">
+      <h2>Publicaciones</h2>
+      <ul>
+        <li>Artículo 1 - Revista de Ciencias, 2023</li>
+        <li>Artículo 2 - Congreso de Tecnología, 2022</li>
+        <li>Artículo 3 - Revista Latinoamericana de Educación, 2021</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="mb-5">
+      <h2>Proyectos</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">Sistema de Rifa Firebase</h5>
+              <p class="card-text">App web para rifas en tiempo real usando Firebase.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+            <div class="card-body">
+              <h5 class="card-title">Cancionero PWA</h5>
+              <p class="card-text">Cancionero moderno instalable como PWA para iglesias.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="mb-5">
+      <h2>Contacto</h2>
+      <p>Correo: <a href="mailto:hector.suarez@ejemplo.com">hector.suarez@ejemplo.com</a></p>
+      <p>GitHub: <a href="https://github.com/tuusuario" target="_blank">@tuusuario</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/tuusuario" target="_blank">tuusuario</a></p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <small>&copy; 2025 Héctor Suárez. Todos los derechos reservados.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
